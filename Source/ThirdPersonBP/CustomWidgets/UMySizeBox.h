@@ -1,14 +1,14 @@
 ﻿#pragma once
 
 #include "CoreMinimal.h"
-#include "Components/TextBlock.h"
-#include "UMyTextBlock.generated.h"
+#include "Components/SizeBox.h"
+#include "UMySizeBox.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class UMyTextBlock : public UTextBlock
+class UMySizeBox : public USizeBox
 {
 	GENERATED_BODY()
 

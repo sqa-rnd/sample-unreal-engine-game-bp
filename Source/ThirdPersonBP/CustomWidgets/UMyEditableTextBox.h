@@ -1,17 +1,18 @@
 ﻿#pragma once
 
 #include "CoreMinimal.h"
-#include "Components/TextBlock.h"
-#include "UMyTextBlock.generated.h"
+#include "Components/EditableText.h"
+#include "Components/EditableTextBox.h"
+#include "UMyEditableTextBox.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class UMyTextBlock : public UTextBlock
+class UMyEditableTextBlock : public UEditableTextBox
 {
 	GENERATED_BODY()
-
+	
 public:
 	UPROPERTY(EditAnywhere, Category="Automation")
 	FName DriverId;

@@ -1,17 +1,20 @@
-﻿#pragma once
+﻿// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
 
 #include "CoreMinimal.h"
-#include "Components/TextBlock.h"
-#include "UMyTextBlock.generated.h"
+#include "Components/ComboBox.h"
+#include "Components/ComboBoxString.h"
+#include "UMyComboBox.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class UMyTextBlock : public UTextBlock
+class UMyComboBox : public UComboBoxString
 {
 	GENERATED_BODY()
-
+	
 public:
 	UPROPERTY(EditAnywhere, Category="Automation")
 	FName DriverId;

@@ -1,14 +1,16 @@
-﻿#pragma once
+﻿// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
 
 #include "CoreMinimal.h"
-#include "Components/TextBlock.h"
-#include "UMyTextBlock.generated.h"
+#include "Components/Slider.h"
+#include "UMySlider.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class UMyTextBlock : public UTextBlock
+class UMySlider : public USlider
 {
 	GENERATED_BODY()
 

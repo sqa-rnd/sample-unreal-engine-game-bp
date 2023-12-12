@@ -1,14 +1,14 @@
 ﻿#pragma once
 
 #include "CoreMinimal.h"
-#include "Components/TextBlock.h"
-#include "UMyTextBlock.generated.h"
+#include "Components/Image.h"
+#include "UMyImage.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class UMyTextBlock : public UTextBlock
+class UMyImage : public UImage
 {
 	GENERATED_BODY()
 

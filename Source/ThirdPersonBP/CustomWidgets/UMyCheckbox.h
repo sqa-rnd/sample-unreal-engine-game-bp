@@ -1,14 +1,17 @@
-﻿#pragma once
+﻿// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
 
 #include "CoreMinimal.h"
-#include "Components/TextBlock.h"
-#include "UMyTextBlock.generated.h"
+#include "Components/CheckBox.h"
+#include "UObject/Object.h"
+#include "UMyCheckbox.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class UMyTextBlock : public UTextBlock
+class THIRDPERSONBP_API UMyCheckbox : public UCheckBox
 {
 	GENERATED_BODY()
 
